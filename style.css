@@ -1,0 +1,59 @@
+body{
+  background-color:#a9d7d1;
+  display:flex;
+  flex-direction:column;
+}
+#title{
+  text-align:center;
+}
+#description{
+  text-align:center; 
+}
+.form{
+  background-color:white;
+  display:flex;
+  width:auto;
+  height:auto;
+  margin:7%;
+  margin-top:10px;
+  padding:auto;
+  text-align:center;
+  flex-direction:column;
+}
+p{
+  font-size:25px;
+}
+#name{
+ margin:10px;
+}
+#email{
+  margin:10px;
+}
+#number{
+  margin:10px;
+}
+
+#feedback{
+  padding:10px;
+  text-align:start;
+}
+#submit{
+  background-color:#59ace0;
+  color:black;
+}
+.feed{
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  margin:5px;
+  margin-left:26%;
+}
+#dropdown{
+  margin:10px;
+}
+.radio{
+  margin:10px;
+}
+.checkbox{
+  margin:10px;
+}

@@ -1,0 +1,65 @@
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<h1 id="title">Survey Form</h1>
+
+<div class="form">
+  
+  <p id="description">Let us know how we can improve our college.</p>
+  
+  <form id="survey-form">
+    
+    <label for="name" id="name-label">Name:</label>
+    <input type="text" placeholder="Enter your name" id="name" required><br>
+  
+    <label for="email" id="email-label"> Email:</label>
+    <input type="email" placeholder="Enter your email" id="email" required><br>
+    
+    <label for="number" id="number-label">Age:</label>
+    <input type="number" placeholder="Enter your number" id="number" min="18" max="23"><br>
+    
+      <span>Which course are you pursuing in HMRITM?</span>
+    <select id="dropdown" >
+      <option value="1">B.Tech</option>
+      <option value="2" >MBA</option>
+      <option value="3" >MCA</option>
+    </select><br>
+    
+    <span for="recommend">Would you recommend HMRITM to a friend?</span>
+    <div class="radio">
+         <label for="yes" >
+      <input name="radio-btn" type="radio" id="yes" value="1" checked>
+  Yes
+      </label>
+  <label for="no" >
+    <input name="radio-btn" type="radio" id="no" value="2">
+  No
+      </label>
+      <label for="maybe">
+        <input name="radio-btn" type="radio" id="maybe" value="3">
+      Maybe
+      </label>
+    </div>
+  
+  <fieldset id="improve">
+    <span>Things that should be improved:</span>
+  <div class="checkbox">
+    <input type="checkbox" value="Infrastructure" checked>Infrastructure<br>
+    <input type="checkbox" value="Placements">Placements<br>
+    <input type="checkbox" value="coding">Coding Environment<br>
+    </div>
+  </fieldset>
+  
+  <div class="feed">
+    <span>Give feedback of HMRITM:</span><br>
+  <textarea id="feedback" placeholder="Enter your feedback..."></textarea> 
+    </div>
+    
+  <footer>
+    <button name="submit" id="submit">Submit
+   </footer>
+  </form>
+</div>
+</body>
